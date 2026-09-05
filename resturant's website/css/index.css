@@ -1,0 +1,53 @@
+html {
+
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background:#0d0d13;
+    height: 3000px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side-of-navbar{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.icon-of-home{
+    color: antiquewhite;
+}
+.site-title{
+    font-size: 30px;
+    color: bisque;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: bisque;
+}
+nav ul li a:hover{
+    color:#171790 ;
+    
+}
