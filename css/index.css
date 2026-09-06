@@ -342,22 +342,22 @@ nav ul li a:hover{
   border-color: #6c5ce7;
 }
 
-.product-grid{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3px;
-    justify-content: flex-start;
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  justify-content: flex-start;
 }
 
 .product-card {
   background-color: #0d0e15; 
   border-radius: 12px;
   padding: 12px;
-  width: 220px;
+  width: 100%;
   border: 1px solid #1a1c29;
   box-sizing: border-box;
-  transition:0.3s;
-      }
+  transition: 0.3s;
+}
 
 .product-card:hover{
   transform: translateY(-5px);
@@ -425,6 +425,10 @@ nav ul li a:hover{
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: #5b4bc4;
 }
 
 .add-btn:hover {
