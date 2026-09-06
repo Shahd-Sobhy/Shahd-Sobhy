@@ -356,7 +356,8 @@ nav ul li a:hover{
   width: 220px;
   border: 1px solid #1a1c29;
   box-sizing: border-box;
-}
+  transition:0.3s;
+      }
 
 .product-card:hover{
   transform: translateY(-5px);
