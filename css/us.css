@@ -64,6 +64,9 @@ nav ul li a:hover {
   font-weight: 600;
   margin-bottom: 10px;
 }
+.page-title span{
+    color: #780B0B;
+}
 
 .divider {
   display: flex;
@@ -101,7 +104,7 @@ nav ul li a:hover {
   align-items: flex-start;
   gap: 15px;
   margin-bottom: 20px;
-  color: #d1d5db;
+  color: bisque;
   font-size: 14px;
 }
 
