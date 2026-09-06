@@ -129,13 +129,20 @@ nav ul li a:hover {
     background-color: #780B0B;
     color: bisque;
 }
+.btn-primary a{
+    text-decoration: none;
+    color: bisque;
+}
 
 .btn-outline {
     background: transparent;
     color: bisque;
     border: 1px solid #fff;
 }
-
+.btn-outline a{
+    text-decoration: none;
+    color: bisque;
+}
 .hero-image {
     flex: 1;
     max-width: 45%;
