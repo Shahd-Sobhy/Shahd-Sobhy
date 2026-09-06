@@ -1,10 +1,8 @@
-html {
-
+html{
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-size: 100%;
 }
-
 body {
     box-sizing: border-box;
     margin: 0;
@@ -12,22 +10,21 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6;
     background:#0d0d13;
+    color: bisque;
 }
-
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
 }
-
 .left-side-of-navbar{
     display: flex;
     align-items: center;
     gap: 8px;
 }
 .icon-of-home{
-    color: antiquewhite;
+    color: bisque;
     width: 18px;
     height: 18px;
 }
@@ -44,14 +41,17 @@ nav li{
     padding: 10px;
     justify-content: center;
 }
-
 nav ul li a{
     text-decoration: none;
     color: bisque;
+    transition: 0.3s;
+
 }
 nav ul li a:hover{
-    color:#171790 ;
-    
+    background: #780B0B;
+    border-radius: 5px;
+    padding: 5px;
+    transform: translateY(-3px);
 }
 /*home*/
 .container-hero{
