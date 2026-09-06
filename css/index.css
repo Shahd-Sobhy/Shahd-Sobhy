@@ -266,6 +266,10 @@ nav ul li a:hover {
 .View-btn {
     padding: 10px 18px;
 }
+.View-btn a{
+    text-decoration: none;
+    color:bisque;
+}
 
 .dishes-header .View-btn {
     position: absolute;
