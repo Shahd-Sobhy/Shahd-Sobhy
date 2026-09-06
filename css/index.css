@@ -345,7 +345,7 @@ nav ul li a:hover{
 .product-grid{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 3px;
     justify-content: flex-start;
 }
 
