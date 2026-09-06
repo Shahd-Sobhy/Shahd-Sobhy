@@ -125,6 +125,8 @@ nav ul li a:hover {
     font-weight: 500;
     border: none;
     transition: 0.3s;
+    border: 3px solid #332d4a;
+    
 }
 
 .btn-primary {
