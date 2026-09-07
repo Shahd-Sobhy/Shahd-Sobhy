@@ -6,1298 +6,1302 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Savora</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="Images/icons/icon-of-home.png">
 </head>
-    <header>
+<header>
+    <div class="logo">
+        <i class="fa-solid fa-utensils"></i> Savora
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about-us.html">About us</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
+            <li><a href="order.html" class="active">Order</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="menu">Our <span>Menu</span></div>
+<div class="fade-line"></div>
+<div class="category-buttons">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="pizza">Pizza</button>
+    <button class="filter-btn" data-category="burgers">Burgers</button>
+    <button class="filter-btn" data-category="chicken">Chicken</button>
+    <button class="filter-btn" data-category="pasta">Pasta</button>
+    <button class="filter-btn" data-category="salad">Salad</button>
+    <button class="filter-btn" data-category="drink">Drink</button>
+    <button class="filter-btn" data-category="dessert">Dessert</button>
+</div>
+<div class="product-grid">
+
+    <div class="product-card" data-category="pizza">
+        <img src="Images/pizza/margherita-pizza.jpeg" alt="Margherita Pizza">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Margherita Pizza</h3>
+                <span class="price">$10.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="pizza">
+        <img src="Images/pizza/bruschetta-cheese-pizza.jpeg" alt="Bruschetta Cheese Pizza">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Bruschetta Cheese Pizza</h3>
+                <span class="price">$12.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.8
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="pizza">
+        <img src="Images/pizza/chicken&ricotta-mediterranean-pizza.jpeg" alt="Chicken & Ricotta Mediterranean Pizza">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Chicken & Ricotta Mediterranean Pizza</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.8
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="pizza">
+        <img src="Images/pizza/classic-tomato-basil-margherita-pizza.jpeg" alt="Classic Tomato Basil Margherita Pizza">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Classic Tomato Basil Margherita Pizza</h3>
+                <span class="price">$14.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="pizza">
+        <img src="Images/pizza/double-cheese-pepperoni-pizza.jpeg" alt="Double Cheese Pepperoni Pizza">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Double Cheese Pepperoni Pizza</h3>
+                <span class="price">$15.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.3
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="pizza">
+        <img src="Images/pizza/meat-pepperoni&sausage-pizza.jpeg" alt="Meat Pepperoni & sausage Pizza">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Meat Pepperoni & Sausage Pizza</h3>
+                <span class="price">$16.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.4
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="pizza">
+        <img src="Images/pizza/penne-pasta&chicken-pizza.jpeg" alt="Penne Pasta & chicken Pizza">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Penne Pasta & chicken Pizza</h3>
+                <span class="price">$8.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.4
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="pizza">
+        <img src="Images/pizza/supreme-sausage&mushroom-pizza.jpeg" alt="Supreme Sausage & Mushroom Pizza">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Supreme Sausage & Mushroom Pizza</h3>
+                <span class="price">$19.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.9
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="pizza">
+        <img src="Images/pizza/thin-crust-steak&rocket-pizza.jpeg" alt="Thin Crust Steak & Rocket Pizza">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Thin Crust Steak & Rocket Pizza</h3>
+                <span class="price">$15.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.4
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="pizza">
+        <img src="Images/pizza/burrata,rocket&pesto-pizza.jpeg" alt="Burrata,Rocket & Pesto Pizza">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Burrata,Rocket & Pesto Pizza</h3>
+                <span class="price">$13.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="burgers">
+        <img src="Images/burgers/bacon-chese-burger.jpeg" alt="Bacon Cheese Burger">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Bacon Cheese Burger</h3>
+                <span class="price">$11.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="burgers">
+        <img src="Images/burgers/big-mac.jpeg" alt="Big Mac">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Big Mac</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.4
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="burgers">
+        <img src="Images/burgers/big-tasty.jpeg" alt="Big Tasty">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Big Tasty</h3>
+                <span class="price">$14.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="burgers">
+        <img src="Images/burgers/chese-burger.jpg" alt="Chese Burger">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Cheese Burger</h3>
+                <span class="price">$22.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="burgers">
+        <img src="Images/burgers/classic-beef-burger.jpg" alt="Classic Beef Burger">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Classic Beef Burger</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.3
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="burgers">
+        <img src="Images/burgers/double-beef-burger.jpeg" alt="Double Beef Burger">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Double Beef Burger</h3>
+                <span class="price">$12.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.1
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="burgers">
+        <img src="Images/burgers/double-chese-burger.jpeg" alt="Double Cheese Burger">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Double Cheese Burger</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="burgers">
+        <img src="Images/burgers/grand-tasty.jpeg" alt="Grand Tasty">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Grand Tasty</h3>
+                <span class="price">$14.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.9
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="burgers">
+        <img src="Images/burgers/mashroom&caramelized-onion.jpeg" alt="Mashroom & Caramelized Onion">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Mashroom & Caramelized Onion</h3>
+                <span class="price">$15.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.6
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="burgers">
+        <img src="Images/burgers/turkey-burger.jpeg" alt="Turkey Burger">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Turkey Burger</h3>
+                <span class="price">$16.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="chicken">
+        <img src="Images/chickens/buffalo-chicken-wings.jpeg" alt="Buffalo Chicken Wings">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Buffalo Chicken Wings</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.4
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="chicken">
+        <img src="Images/chickens/chichen-tenders.jpeg" alt="Chicken Tenders">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Chicken Tenders</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.6
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="chicken">
+        <img src="Images/chickens/chicken&chesserole.jpeg" alt="Chicken & Chesserole">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Chicken & Chesserole</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="product-card" data-category="chicken">
+        <img src="Images/chickens/chicken-strips.jpeg" alt="Chicken Strips">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Chicken Strips</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.4
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="product-card" data-category="chicken">
+        <img src="Images/chickens/fried-chicken.jpeg" alt="Fried Chicken">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Fried Chicken</h3>
+                <span class="price">$15.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.7
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="chicken">
+        <img src="Images/chickens/grilled-chicken-breast.jpeg" alt="Grilled Chicken Breast">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Grilled Chicken Breast</h3>
+                <span class="price">$19.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.9
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="chicken">
+        <img src="Images/chickens/roast-chicken-plate.jpeg" alt="Roast Chicken Plate">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Roast Chicken Plate</h3>
+                <span class="price">$15.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="chicken">
+        <img src="Images/chickens/roast-turkey.jpeg" alt="Roast Turkey">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Roast Turkey</h3>
+                <span class="price">$25.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.9
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="chicken">
+        <img src="Images/chickens/roasted-chicken.jpeg" alt="Roasted Chicken">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Roasted Chicken</h3>
+                <span class="price">$15.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="pasta">
+        <img src="Images/pasta/chicken&mushroom-penne.jpeg" alt="Chicken & Mushroom Penne">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Chicken & Mushroom Penne</h3>
+                <span class="price">$19.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.8
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="pasta">
+        <img src="Images/pasta/classic-spaghetti-bolognese.jpeg" alt="Classic Spaghetti Bolognese">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Classic Spaghetti Bolognese</h3>
+                <span class="price">$14.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.7
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="pasta">
+        <img src="Images/pasta/fettuccine-bolognese.jpeg" alt="Fettuccine Bolognese">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Fettuccine Bolognese</h3>
+                <span class="price">$15.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.7
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="pasta">
+        <img src="Images/pasta/fusilli-tomato-pasta.jpeg" alt="Fusilli Tomato Pasta">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Fusilli Tomato Pasta</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.8
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="pasta">
+        <img src="Images/pasta/pappardelle-ragu.jpeg" alt="Pappardelle Ragu">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Pappardelle Ragu</h3>
+                <span class="price">$12.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="pasta">
+        <img src="Images/pasta/penne-alfredo.jpeg" alt="Penne Alfredo">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Penne Alfredo</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.9
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="pasta">
+        <img src="Images/pasta/pink-sauce-spaghetti.jpeg" alt="Pink Sauce Spaghetti">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Pink Sauce Spaghetti</h3>
+                <span class="price">$12.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.2
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="pasta">
+        <img src="Images/pasta/shrimp-chow-mein-pasta.jpeg" alt="Shrimp Chow Mein Pasta">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Shrimp Chow Mein Pasta</h3>
+                <span class="price">$14.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.9
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="pasta">
+        <img src="Images/pasta/spaghetti-bolognese-marinara.jpeg" alt="Spaghetti Bolognese Mrinara">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Spaghetti Bolognese Mrinara</h3>
+                <span class="price">$11.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.2
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="pasta">
+        <img src="Images/pasta/steak&mushroom-fettuccine.jpeg" alt="Steak & Mushroom Fettuccine">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Steak & Mushroom Fettuccine</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.9
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="salad">
+        <img src="Images/salads/lentil&sweet-potato-salad-with-avocado.jpeg"
+            alt="Lentil & Sweet Potato Salad With Avocado">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Lentil & Sweet Potato Salad With Avocado</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.9
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="salad">
+        <img src="Images/salads/mozzarella&bresaola-green-salad.jpeg" alt="Mozzarella & Bresaola Green Salad">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Mozzarella & Bresaola Green Salad</h3>
+                <span class="price">$14.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="salad">
+        <img src="Images/salads/quinoa&roasted-chickpea-bowl.jpeg" alt="Quinoa & Roasted Chickpea Bowl">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Quinoa & Roasted Chickpea Bowl</h3>
+                <span class="price">$11.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product-card" data-category="salad">
+        <img src="Images/salads/sausage&mushroom-garden-salad.jpeg" alt="Sausage & Mushroom Garden Salad">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Sausage & Mushroom Garden Salad</h3>
+                <span class="price">$12.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.4
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="salad">
+        <img src="Images/salads/sharm&watermelon-feta-salad.jpeg" alt="Sharm & Watermelon Feta Salad">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Sharm & Watermelon Feta Salad</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.8
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="salad">
+        <img src="Images/salads/sweet-potato&avocado-buddha.jpeg" alt="Sweet Potato & Avocado Buddha">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Sweet Potato & Avocado Buddha</h3>
+                <span class="price">$11.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="salad">
+        <img src="Images/salads/ultimate-rainbow-garden-salad.jpeg" alt="Ultimate Rainbow Garden Salad">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Ultimate Rainbow Garden Salad</h3>
+                <span class="price">$15.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.8
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="product-card" data-category="drink">
+        <img src="Images/drinks/coffee.jpeg" alt="Coffee">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Coffee</h3>
+                <span class="price">$14.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.4
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="drink">
+        <img src="Images/drinks/detox-juice.jpeg" alt="Detox Juice">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Detox Juice</h3>
+                <span class="price">$12.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="drink">
+        <img src="Images/drinks/ice-pop.jpeg" alt="Ice Pop">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Ice Pop</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.9
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="product-card" data-category="drink">
+        <img src="Images/drinks/lemonada.jpeg" alt="Lemonada">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Lemonada</h3>
+                <span class="price">$14.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="drink">
+        <img src="Images/drinks/mango-juice.jpeg" alt="Mango Juice">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Mango Juice</h3>
+                <span class="price">$12.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.4
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="drink">
+        <img src="Images/drinks/mixedberry-smothie.jpeg" alt="Mixedberry Smothie">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Mixedberry Smothie</h3>
+                <span class="price">$18.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.9
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="drink">
+        <img src="Images/drinks/orange-juice.jpeg" alt="Orange Juice">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Orange Juice</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.9
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="drink">
+        <img src="Images/drinks/strawberry-mojito.jpeg" alt="Strawberry Mojito">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Strawberry Mojito</h3>
+                <span class="price">$15.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.4
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="dessert">
+        <img src="Images/desserts/berry-layer-cake.jpeg" alt="Berry Layer Cake">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Berry Layer Cake</h3>
+                <span class="price">$12.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.7
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="dessert">
+        <img src="Images/desserts/chocolate-banana-waffle.jpeg" alt="Chocolate Banana Waffle">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Chocolate Banana Waffle</h3>
+                <span class="price">$17.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.8
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="dessert">
+        <img src="Images/desserts/chocolate-donuts.jpeg" alt="Chocolate Donuts">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Chocolate Donuts</h3>
+                <span class="price">$19.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.9
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="dessert">
+        <img src="Images/desserts/chocolate-drip-cake.jpeg" alt="Chocolate Drip Cake">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Chocolate Drip Cake</h3>
+                <span class="price">$18.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.9
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="dessert">
+        <img src="Images/desserts/chocolate-layer-cake.jpeg" alt="Chocolate Layer Cake">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Chocolate Layer Cake</h3>
+                <span class="price">$12.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.4
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="dessert">
+        <img src="Images/desserts/cupcakes.jpeg" alt="Cupcakes">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Cupcakes</h3>
+                <span class="price">$15.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.2
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="dessert">
+        <img src="Images/desserts/french-macarons.jpeg" alt="French Macarons">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">French Macarons</h3>
+                <span class="price">$10.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.5
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="product-card" data-category="dessert">
+        <img src="Images/desserts/strawberry-crepes.jpeg" alt="Strawberry Crepes">
+
+        <div class="card-info">
+            <div class="card-header">
+                <h3 class="product-title">Strawberry Crepes</h3>
+                <span class="price">$15.99</span>
+            </div>
+
+            <div class="card-footer">
+                <div class="rating">
+                    <span>★</span> 4.4
+                </div>
+                <button class="add-btn">+ Add</button>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="logo-footer">
         <div class="logo">
-                <i class="fa-solid fa-utensils"></i> Savora
+            <i class="fa-solid fa-utensils"></i> Savora
         </div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about-us.html">About us</a></li>
-                <li><a href="contact-us.html">Contact us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="menu">Our  <span>Menu</span></div>
-    <div class="fade-line"></div>
-    <div class="category-buttons">
-        <button class="filter-btn active" data-category="all">All</button>
-        <button class="filter-btn" data-category="pizza">Pizza</button>
-        <button class="filter-btn" data-category="burgers">Burgers</button>
-        <button class="filter-btn" data-category="chicken">Chicken</button>
-        <button class="filter-btn" data-category="pasta">Pasta</button>
-        <button class="filter-btn" data-category="salad">Salad</button>
-        <button class="filter-btn" data-category="drink">Drink</button>
-        <button class="filter-btn" data-category="dessert">Dessert</button>
+        <p>Good Food,Good Mood</p>
     </div>
-    <div class="product-grid">
-
-        <div class="product-card" data-category="pizza">
-            <img src="Images/pizza/margherita-pizza.jpeg" alt="Margherita Pizza">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Margherita Pizza</h3>
-                    <span class="price">$10.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
+    <div class="footer-column">
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about-us.html">About Us</a>
+        <a href="contact-us.html">Contact</a>
+    </div>
+    <div class="footer-column">
+        <h3>Categories</h3>
+        <a href="menu.html?category=pizza">Pizza</a>
+        <a href="menu.html?category=burgers">Burger</a>
+        <a href="menu.html?category=chicken">Chicken</a>
+        <a href="menu.html?category=pasta">Pasta</a>
+        <a href="menu.html?category=salad">Salad</a>
+        <a href="menu.html?category=drink">Drink</a>
+        <a href="menu.html?category=dessert">Dessert</a>
+    </div>
+    <div class="subscribe">
+        <h3>Subscribe to get special offers</h3>
+        <div class="subscribe-box">
+            <input type="email" placeholder="Your Email">
+            <button>Subscribe</button>
         </div>
-
-
-
-        <div class="product-card" data-category="pizza">
-            <img src="Images/pizza/bruschetta-cheese-pizza.jpeg" alt="Bruschetta Cheese Pizza">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Bruschetta Cheese Pizza</h3>
-                    <span class="price">$12.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.8
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="pizza">
-            <img src="Images/pizza/chicken&ricotta-mediterranean-pizza.jpeg" alt="Chicken & Ricotta Mediterranean Pizza">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Chicken & Ricotta Mediterranean Pizza</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.8
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="pizza">
-            <img src="Images/pizza/classic-tomato-basil-margherita-pizza.jpeg" alt="Classic Tomato Basil Margherita Pizza">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Classic Tomato Basil Margherita Pizza</h3>
-                    <span class="price">$14.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="pizza">
-            <img src="Images/pizza/double-cheese-pepperoni-pizza.jpeg" alt="Double Cheese Pepperoni Pizza">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Double Cheese Pepperoni Pizza</h3>
-                    <span class="price">$15.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.3
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="pizza">
-            <img src="Images/pizza/meat-pepperoni&sausage-pizza.jpeg" alt="Meat Pepperoni & sausage Pizza">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Meat Pepperoni & Sausage Pizza</h3>
-                    <span class="price">$16.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.4
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="pizza">
-            <img src="Images/pizza/penne-pasta&chicken-pizza.jpeg" alt="Penne Pasta & chicken Pizza">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Penne Pasta & chicken Pizza</h3>
-                    <span class="price">$8.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.4
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="pizza">
-            <img src="Images/pizza/supreme-sausage&mushroom-pizza.jpeg" alt="Supreme Sausage & Mushroom Pizza">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Supreme Sausage & Mushroom Pizza</h3>
-                    <span class="price">$19.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.9
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="pizza">
-            <img src="Images/pizza/thin-crust-steak&rocket-pizza.jpeg" alt="Thin Crust Steak & Rocket Pizza">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Thin Crust Steak & Rocket Pizza</h3>
-                    <span class="price">$15.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.4
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="pizza">
-            <img src="Images/pizza/burrata,rocket&pesto-pizza.jpeg" alt="Burrata,Rocket & Pesto Pizza">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Burrata,Rocket & Pesto Pizza</h3>
-                    <span class="price">$13.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="burgers">
-            <img src="Images/burgers/bacon-chese-burger.jpeg" alt="Bacon Cheese Burger">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Bacon Cheese Burger</h3>
-                    <span class="price">$11.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="burgers">
-            <img src="Images/burgers/big-mac.jpeg" alt="Big Mac">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Big Mac</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.4
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="burgers">
-            <img src="Images/burgers/big-tasty.jpeg" alt="Big Tasty">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Big Tasty</h3>
-                    <span class="price">$14.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="burgers">
-            <img src="Images/burgers/chese-burger.jpg" alt="Chese Burger">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Cheese Burger</h3>
-                    <span class="price">$22.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="burgers">
-            <img src="Images/burgers/classic-beef-burger.jpg" alt="Classic Beef Burger">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Classic Beef Burger</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.3
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="burgers">
-            <img src="Images/burgers/double-beef-burger.jpeg" alt="Double Beef Burger">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Double Beef Burger</h3>
-                    <span class="price">$12.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.1
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="burgers">
-            <img src="Images/burgers/double-chese-burger.jpeg" alt="Double Cheese Burger">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Double Cheese Burger</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="burgers">
-            <img src="Images/burgers/grand-tasty.jpeg" alt="Grand Tasty">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Grand Tasty</h3>
-                    <span class="price">$14.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.9
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="burgers">
-            <img src="Images/burgers/mashroom&caramelized-onion.jpeg" alt="Mashroom & Caramelized Onion">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Mashroom & Caramelized Onion</h3>
-                    <span class="price">$15.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.6
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="burgers">
-            <img src="Images/burgers/turkey-burger.jpeg" alt="Turkey Burger">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Turkey Burger</h3>
-                    <span class="price">$16.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="chicken">
-            <img src="Images/chickens/buffalo-chicken-wings.jpeg" alt="Buffalo Chicken Wings">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Buffalo Chicken Wings</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.4
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="chicken">
-            <img src="Images/chickens/chichen-tenders.jpeg" alt="Chicken Tenders">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Chicken Tenders</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.6
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="chicken">
-            <img src="Images/chickens/chicken&chesserole.jpeg" alt="Chicken & Chesserole">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Chicken & Chesserole</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <div class="product-card" data-category="chicken">
-            <img src="Images/chickens/chicken-strips.jpeg" alt="Chicken Strips">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Chicken Strips</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.4
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <div class="product-card" data-category="chicken">
-            <img src="Images/chickens/fried-chicken.jpeg" alt="Fried Chicken">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Fried Chicken</h3>
-                    <span class="price">$15.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.7
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="chicken">
-            <img src="Images/chickens/grilled-chicken-breast.jpeg" alt="Grilled Chicken Breast">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Grilled Chicken Breast</h3>
-                    <span class="price">$19.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.9
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="chicken">
-            <img src="Images/chickens/roast-chicken-plate.jpeg" alt="Roast Chicken Plate">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Roast Chicken Plate</h3>
-                    <span class="price">$15.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="chicken">
-            <img src="Images/chickens/roast-turkey.jpeg" alt="Roast Turkey">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Roast Turkey</h3>
-                    <span class="price">$25.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.9
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="chicken">
-            <img src="Images/chickens/roasted-chicken.jpeg" alt="Roasted Chicken">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Roasted Chicken</h3>
-                    <span class="price">$15.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="pasta">
-            <img src="Images/pasta/chicken&mushroom-penne.jpeg" alt="Chicken & Mushroom Penne">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Chicken & Mushroom Penne</h3>
-                    <span class="price">$19.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.8
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="pasta">
-            <img src="Images/pasta/classic-spaghetti-bolognese.jpeg" alt="Classic Spaghetti Bolognese">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Classic Spaghetti Bolognese</h3>
-                    <span class="price">$14.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.7
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="pasta">
-            <img src="Images/pasta/fettuccine-bolognese.jpeg" alt="Fettuccine Bolognese">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Fettuccine Bolognese</h3>
-                    <span class="price">$15.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.7
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="pasta">
-            <img src="Images/pasta/fusilli-tomato-pasta.jpeg" alt="Fusilli Tomato Pasta">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Fusilli Tomato Pasta</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.8
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="pasta">
-            <img src="Images/pasta/pappardelle-ragu.jpeg" alt="Pappardelle Ragu">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Pappardelle Ragu</h3>
-                    <span class="price">$12.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="pasta">
-            <img src="Images/pasta/penne-alfredo.jpeg" alt="Penne Alfredo">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Penne Alfredo</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.9
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="pasta">
-            <img src="Images/pasta/pink-sauce-spaghetti.jpeg" alt="Pink Sauce Spaghetti">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Pink Sauce Spaghetti</h3>
-                    <span class="price">$12.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.2
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="pasta">
-            <img src="Images/pasta/shrimp-chow-mein-pasta.jpeg" alt="Shrimp Chow Mein Pasta">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Shrimp Chow Mein Pasta</h3>
-                    <span class="price">$14.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.9
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="pasta">
-            <img src="Images/pasta/spaghetti-bolognese-marinara.jpeg" alt="Spaghetti Bolognese Mrinara">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Spaghetti Bolognese Mrinara</h3>
-                    <span class="price">$11.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.2
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="pasta">
-            <img src="Images/pasta/steak&mushroom-fettuccine.jpeg" alt="Steak & Mushroom Fettuccine">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Steak & Mushroom Fettuccine</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.9
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="salad">
-            <img src="Images/salads/lentil&sweet-potato-salad-with-avocado.jpeg" alt="Lentil & Sweet Potato Salad With Avocado">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Lentil & Sweet Potato Salad With Avocado</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.9
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="salad">
-            <img src="Images/salads/mozzarella&bresaola-green-salad.jpeg" alt="Mozzarella & Bresaola Green Salad">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Mozzarella & Bresaola Green Salad</h3>
-                    <span class="price">$14.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="salad">
-            <img src="Images/salads/quinoa&roasted-chickpea-bowl.jpeg" alt="Quinoa & Roasted Chickpea Bowl">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Quinoa & Roasted Chickpea Bowl</h3>
-                    <span class="price">$11.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="product-card" data-category="salad">
-            <img src="Images/salads/sausage&mushroom-garden-salad.jpeg" alt="Sausage & Mushroom Garden Salad">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Sausage & Mushroom Garden Salad</h3>
-                    <span class="price">$12.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.4
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="salad">
-            <img src="Images/salads/sharm&watermelon-feta-salad.jpeg" alt="Sharm & Watermelon Feta Salad">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Sharm & Watermelon Feta Salad</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.8
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="salad">
-            <img src="Images/salads/sweet-potato&avocado-buddha.jpeg" alt="Sweet Potato & Avocado Buddha">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Sweet Potato & Avocado Buddha</h3>
-                    <span class="price">$11.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="salad">
-            <img src="Images/salads/ultimate-rainbow-garden-salad.jpeg" alt="Ultimate Rainbow Garden Salad">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Ultimate Rainbow Garden Salad</h3>
-                    <span class="price">$15.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.8
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-        <div class="product-card" data-category="drink">
-            <img src="Images/drinks/coffee.jpeg" alt="Coffee">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Coffee</h3>
-                    <span class="price">$14.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.4
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="drink">
-            <img src="Images/drinks/detox-juice.jpeg" alt="Detox Juice">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Detox Juice</h3>
-                    <span class="price">$12.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="drink">
-            <img src="Images/drinks/ice-pop.jpeg" alt="Ice Pop">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Ice Pop</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.9
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <div class="product-card" data-category="drink">
-            <img src="Images/drinks/lemonada.jpeg" alt="Lemonada">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Lemonada</h3>
-                    <span class="price">$14.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="drink">
-            <img src="Images/drinks/mango-juice.jpeg" alt="Mango Juice">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Mango Juice</h3>
-                    <span class="price">$12.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.4
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="drink">
-            <img src="Images/drinks/mixedberry-smothie.jpeg" alt="Mixedberry Smothie">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Mixedberry Smothie</h3>
-                    <span class="price">$18.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.9
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="drink">
-            <img src="Images/drinks/orange-juice.jpeg" alt="Orange Juice">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Orange Juice</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.9
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="drink">
-            <img src="Images/drinks/strawberry-mojito.jpeg" alt="Strawberry Mojito">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Strawberry Mojito</h3>
-                    <span class="price">$15.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.4
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="dessert">
-            <img src="Images/desserts/berry-layer-cake.jpeg" alt="Berry Layer Cake">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Berry Layer Cake</h3>
-                    <span class="price">$12.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.7
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="dessert">
-            <img src="Images/desserts/chocolate-banana-waffle.jpeg" alt="Chocolate Banana Waffle">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Chocolate Banana Waffle</h3>
-                    <span class="price">$17.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.8
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="dessert">
-            <img src="Images/desserts/chocolate-donuts.jpeg" alt="Chocolate Donuts">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Chocolate Donuts</h3>
-                    <span class="price">$19.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.9
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="dessert">
-            <img src="Images/desserts/chocolate-drip-cake.jpeg" alt="Chocolate Drip Cake">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Chocolate Drip Cake</h3>
-                    <span class="price">$18.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.9
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="dessert">
-            <img src="Images/desserts/chocolate-layer-cake.jpeg" alt="Chocolate Layer Cake">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Chocolate Layer Cake</h3>
-                    <span class="price">$12.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.4
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="dessert">
-            <img src="Images/desserts/cupcakes.jpeg" alt="Cupcakes">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Cupcakes</h3>
-                    <span class="price">$15.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.2
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="dessert">
-            <img src="Images/desserts/french-macarons.jpeg" alt="French Macarons">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">French Macarons</h3>
-                    <span class="price">$10.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.5
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="product-card" data-category="dessert">
-            <img src="Images/desserts/strawberry-crepes.jpeg" alt="Strawberry Crepes">
-
-            <div class="card-info">
-                <div class="card-header">
-                    <h3 class="product-title">Strawberry Crepes</h3>
-                    <span class="price">$15.99</span>
-                </div>
-
-                <div class="card-footer">
-                    <div class="rating">
-                        <span>★</span> 4.4
-                    </div>
-                    <button class="add-btn">+ Add</button>
-                </div>
-            </div>
+        <div class="payment">
+            <span>VISA</span>
+            <span>PayPal</span>
         </div>
     </div>
-    <footer>
-        <div class="logo-footer">
-            <div class="logo">
-                <i class="fa-solid fa-utensils"></i> Savora
-            </div>
-            <p>Good Food,Good Mood</p>
-        </div>
-        <div class="footer-column">
-            <h3>Quick Links</h3>
-            <a href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="about-us.html">About Us</a>
-            <a href="contact-us.html">Contact</a>
-        </div>
-        <div class="footer-column">
-            <h3>Categories</h3>
-            <a href="menu.html?category=pizza">Pizza</a>
-            <a href="menu.html?category=burgers">Burger</a>
-            <a href="menu.html?category=chicken">Chicken</a>
-            <a href="menu.html?category=pasta">Pasta</a>
-            <a href="menu.html?category=salad">Salad</a>
-            <a href="menu.html?category=drink">Drink</a>
-            <a href="menu.html?category=dessert">Dessert</a>
-        </div>
-        <div class="subscribe">
-            <h3>Subscribe to get special offers</h3>
-            <div class="subscribe-box">
-                <input type="email" placeholder="Your Email">
-                <button>Subscribe</button>
-            </div>    
-            <div class="payment">
-                    <span>VISA</span>
-                    <span>PayPal</span>
-            </div>
-        </div>
-    </footer>
-    <script src="main.js"></script>
+</footer>
+<script src="main.js"></script>
 </body>
+
 </html>
