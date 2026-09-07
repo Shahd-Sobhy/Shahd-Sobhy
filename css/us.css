@@ -1,23 +1,25 @@
-html {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    font-size: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif ,'Segoe UI';
 }
+
 body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.6;
-    background: #0d0d13;
-    color: bisque;
+  background-color: #0b0a12;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
 }
+
 
 .logo {
   font-size: 24px;
@@ -28,34 +30,43 @@ header {
   align-items: center;
   gap: 10px;
 }
+
 .logo i {
   color: #f54a4a;
 }
+
 .navbar {
     float: right;
 }
+
 nav li {
     display: inline-block;
     padding: 10px;
     justify-content: center;
 }
+
 nav ul li a {
     text-decoration: none;
     color: bisque;
     transition: 0.3s;
 
 }
+
 nav ul li a:hover {
     background: #780B0B;
     border-radius: 5px;
     padding: 5px;
     transform: translateY(-3px);
 }
+
+
+
 .contact-section {
   max-width: 1000px;
   margin: 40px auto;
   padding: 20px;
   width: 100%;
+  font-family:  serif;
 }
 
 .page-title {
@@ -64,9 +75,6 @@ nav ul li a:hover {
   font-weight: 600;
   margin-bottom: 10px;
 }
-.page-title span{
-    color: #780B0B;
-}
 
 .divider {
   display: flex;
@@ -74,7 +82,7 @@ nav ul li a:hover {
   justify-content: center;
   gap: 10px;
   margin-bottom: 40px;
-  color: #780B0B;
+  color: #f51212;
 }
 
 .divider span {
@@ -104,7 +112,7 @@ nav ul li a:hover {
   align-items: flex-start;
   gap: 15px;
   margin-bottom: 20px;
-  color: bisque;
+  color: #d1d5db;
   font-size: 14px;
 }
 
@@ -192,7 +200,7 @@ nav ul li a:hover {
 }
 .form-group input:hover,
 .form-group textarea:hover {
-  border-color: #780B0B;
+  border-color: #f53131;
   transform: translateY(-2px);
 }
 
@@ -204,7 +212,7 @@ nav ul li a:hover {
 
 .btn-submit {
   width: 100%;
-  background: linear-gradient(135deg, #780B0B);
+  background: linear-gradient(135deg, #780B0B, #f72525);
   color: #fff;
   border: none;
   padding: 12px;
@@ -259,112 +267,7 @@ nav ul li a:hover {
   font-size: 13px;
   color: #a1a1aa;
 }
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 40px;
-    background-color:black;
-    color: bisque;
-    padding: 60px 8% 30px;
-    font-family: 'Poppins', sans-serif;
-}
-.logo-footer {
-    flex: 1 1 250px;
-}
 
-.logo-footer p {
-    color: #f54a4a;
-    font-size: 16px;
-    line-height: 1.6;
-}
-.footer-column {
-    flex: 1 1 160px;
-}
-
-.footer-column h3 {
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: bisque;
-    position: relative;
-    padding-bottom: 10px;
-}
-
-.footer-column h3::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100px;
-    height: 3px;
-    background-color: #780B0B;
-    border-radius: 2px;
-}
-
-.footer-column a {
-    display: block;
-    color: bisque;
-    text-decoration: none;
-    margin-bottom: 12px;
-    font-size: 14px;
-    transition: 0.3s ease;
-}
-
-.footer-column a:hover {
-    color: #780B0B;
-    padding-left: 5px;
-}
-.subscribe {
-    flex: 1 1 280px;
-}
-
-.subscribe h3 {
-    font-size: 18px;
-    color: bisque;
-    margin-bottom: 20px;
-}
-
-.subscribe-box {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.subscribe-box input {
-    flex: 1;
-    padding: 12px 15px;
-    border: none;
-    border-radius: 6px 0 0 6px;
-    outline: none;
-    font-size: 14px;
-}
-
-.subscribe-box button {
-    background-color:#780B0B;
-    color: #fff;
-    border: none;
-    padding: 12px 20px;
-    border-radius: 0 6px 6px 0;
-    cursor: pointer;
-    font-weight: 600;
-    transition: 0.3s ease;
-}
-
-.subscribe-box button:hover {
-    background-color:#780B0B;
-}
-
-.payment {
-    display: flex;
-    gap: 15px;
-}
-
-.payment span {
-    background-color: #780B0B;
-    padding: 6px 14px;
-    border-radius: 5px;
-    font-size: 13px;
-    color: bisque;
-}
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-15px); }
   to { opacity: 1; transform: translateY(0); }
@@ -376,12 +279,27 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    padding: 15px 20px;
+  header {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    padding: 15px 0;
   }
 
-  .nav-links {
-    display: none;
+  .navbar {
+    float: none;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav li {
+    padding: 6px 8px;
   }
 
   .contact-section {
@@ -401,16 +319,12 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .navbar {
-    padding: 12px 15px;
-  }
-
   .logo {
     font-size: 18px;
   }
 
-  .btn-order {
-    padding: 6px 12px;
+  nav li {
+    padding: 5px 6px;
     font-size: 13px;
   }
 
